@@ -1,0 +1,91 @@
+/* @import "colors.css"; */
+@import "/home/fhasl/.cache/wal/colors-waybar.css";
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  border: none;
+  border-radius: 0;
+  font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  min-height: 0;
+  margin: 0;
+  padding: 1px;
+}
+
+tooltip {
+  background: @background;
+  border: 1px solid @foreground;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @background;
+  padding: 5px;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+#workspaces {
+  background: transparent;
+  padding: 0 10px 0 10px;
+  margin: 0 0 0 12px;
+  border-radius: 18px;
+  color: @foreground;
+}
+
+#workspaces button {
+  padding: 3px 5px;
+  margin: 0 5px 0 5px;
+  border-radius: 50px;
+  color: @foreground;
+  background-color: transparent;
+}
+
+#workspaces button.active {
+  background: linear-gradient(135deg, @color3 0%, @color5 50%, @color9 100%);
+  min-width: 50px;
+  padding: 3px;
+  color: @foreground;
+  transition: all 0.2s ease-in-out;
+  font-size: 12px;
+  background-size: 400% 400%;
+}
+
+#workspaces button:hover {
+  background-color: @color13;
+  color: @foreground;
+  border-radius: 18px;
+  min-width: 50px;
+  background-size: 400% 400%;
+  transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.urgent {
+  background-color: @color0;
+  color: @foreground;
+  border-radius: 18px;
+  min-width: 50px;
+  background-size: 400% 400%;
+  transition: all 0.2s ease-in-out;
+}
+
+.modules-center {
+  background-color: @background;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid @foreground;
+  margin: 0px 10px 0px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#tray {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+#custom-clock {
+  color: @foreground;
+  margin-left: 5px;
+}

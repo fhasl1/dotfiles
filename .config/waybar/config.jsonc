@@ -1,0 +1,22 @@
+{
+	"layer": "top",
+	"margin-top": 10,
+	"width": 500,
+	// "modules-left": ["clock"],
+	"modules-center": ["custom/clock", "hyprland/workspaces", "tray"],
+	// "modules-right": ["tray"],
+	"hyprland/workspaces" : {
+		"format": "{name}",
+		"persistent-workspaces": {
+			"*": 5,
+		}
+	},
+	"custom/clock": {
+		"exec": "date '+%I:%M %P'",
+		"interval": 1
+	},
+	"tray": {
+		"icon-size": 16,
+		"spacing": 10
+	}
+}
