@@ -1,0 +1,28 @@
+{
+    "checksum": "c720f1498cf8476b1164edb9aaae480a",
+    "wallpaper": "/home/fhasl/Pictures/Wallpapers/wallhaven-gwwywd_3840x2160.png",
+    "alpha": "100",
+    "special": {
+        "background": "#06090e",
+        "foreground": "#c0c1c2",
+        "cursor": "#c0c1c2"
+    },
+    "colors": {
+        "color0": "#06090e",
+        "color1": "#DC5B5B",
+        "color2": "#FC4F4A",
+        "color3": "#FC7270",
+        "color4": "#FD837C",
+        "color5": "#B87A86",
+        "color6": "#FD8E8F",
+        "color7": "#c0c1c2",
+        "color8": "#555d69",
+        "color9": "#DC5B5B",
+        "color10": "#FC4F4A",
+        "color11": "#FC7270",
+        "color12": "#FD837C",
+        "color13": "#B87A86",
+        "color14": "#FD8E8F",
+        "color15": "#c0c1c2"
+    }
+}

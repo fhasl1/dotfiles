@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/fhasl/Pictures/Wallpapers/chromatic_light_1.jpg"
+let background = "#253337"
+let foreground = "#c8cccd"
+let cursor     = "#c8cccd"
+
+" Colors
+let color0  = "#253337"
+let color1  = "#3F858E"
+let color2  = "#498A92"
+let color3  = "#6F9499"
+let color4  = "#6B9FA4"
+let color5  = "#989A9A"
+let color6  = "#94A7AA"
+let color7  = "#c8cccd"
+let color8  = "#6b7c82"
+let color9  = "#3F858E"
+let color10 = "#498A92"
+let color11 = "#6F9499"
+let color12 = "#6B9FA4"
+let color13 = "#989A9A"
+let color14 = "#94A7AA"
+let color15 = "#c8cccd"

@@ -1,0 +1,28 @@
+{
+    "checksum": "1d1a50531806b69ac35853c42e9f8de4",
+    "wallpaper": "/home/fhasl/Pictures/Wallpapers/wallhaven-2119vy_2560x1440.png",
+    "alpha": "100",
+    "special": {
+        "background": "#331c2b",
+        "foreground": "#ccc6ca",
+        "cursor": "#ccc6ca"
+    },
+    "colors": {
+        "color0": "#331c2b",
+        "color1": "#AD7492",
+        "color2": "#7C86B3",
+        "color3": "#70A8D6",
+        "color4": "#9488A3",
+        "color5": "#D698AA",
+        "color6": "#CBAACD",
+        "color7": "#ccc6ca",
+        "color8": "#7d6776",
+        "color9": "#AD7492",
+        "color10": "#7C86B3",
+        "color11": "#70A8D6",
+        "color12": "#9488A3",
+        "color13": "#D698AA",
+        "color14": "#CBAACD",
+        "color15": "#ccc6ca"
+    }
+}

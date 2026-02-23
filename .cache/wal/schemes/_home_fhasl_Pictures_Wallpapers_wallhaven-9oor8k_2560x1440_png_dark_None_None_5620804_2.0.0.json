@@ -1,0 +1,28 @@
+{
+    "checksum": "9455d3c293253bdd5598518953378611",
+    "wallpaper": "/home/fhasl/Pictures/Wallpapers/wallhaven-9oor8k_2560x1440.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1c0c",
+        "foreground": "#c6c6c2",
+        "cursor": "#c6c6c2"
+    },
+    "colors": {
+        "color0": "#1c1c0c",
+        "color1": "#847C60",
+        "color2": "#B89959",
+        "color3": "#938C6D",
+        "color4": "#A69C77",
+        "color5": "#65628E",
+        "color6": "#B1A992",
+        "color7": "#c6c6c2",
+        "color8": "#70705b",
+        "color9": "#847C60",
+        "color10": "#B89959",
+        "color11": "#938C6D",
+        "color12": "#A69C77",
+        "color13": "#65628E",
+        "color14": "#B1A992",
+        "color15": "#c6c6c2"
+    }
+}

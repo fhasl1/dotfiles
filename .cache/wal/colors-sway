@@ -1,0 +1,21 @@
+set $wallpaper /home/fhasl/Pictures/Wallpapers/chromatic_light_1.jpg
+
+set $background #253337
+set $foreground #c8cccd
+
+set $color0 #253337
+set $color1 #3F858E
+set $color2 #498A92
+set $color3 #6F9499
+set $color4 #6B9FA4
+set $color5 #989A9A
+set $color6 #94A7AA
+set $color7 #c8cccd
+set $color8 #6b7c82
+set $color9 #3F858E
+set $color10 #498A92
+set $color11 #6F9499
+set $color12 #6B9FA4
+set $color13 #989A9A
+set $color14 #94A7AA
+set $color15 #c8cccd

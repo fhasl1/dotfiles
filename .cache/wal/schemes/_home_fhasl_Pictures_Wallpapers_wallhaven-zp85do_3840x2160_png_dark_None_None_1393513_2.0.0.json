@@ -1,0 +1,28 @@
+{
+    "checksum": "83178675cfb2af3981d1dc09c0eb6e48",
+    "wallpaper": "/home/fhasl/Pictures/Wallpapers/wallhaven-zp85do_3840x2160.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080e12",
+        "foreground": "#c1c2c3",
+        "cursor": "#c1c2c3"
+    },
+    "colors": {
+        "color0": "#080e12",
+        "color1": "#00309A",
+        "color2": "#0450AC",
+        "color3": "#0364D9",
+        "color4": "#059EF9",
+        "color5": "#12E2FE",
+        "color6": "#54E3EB",
+        "color7": "#c1c2c3",
+        "color8": "#57646a",
+        "color9": "#00309A",
+        "color10": "#0450AC",
+        "color11": "#0364D9",
+        "color12": "#059EF9",
+        "color13": "#12E2FE",
+        "color14": "#54E3EB",
+        "color15": "#c1c2c3"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "checksum": "7ca679e49feec62ffe828b59061e5fb4",
+    "wallpaper": "/home/fhasl/Pictures/Wallpapers/a_cartoon_of_a_girl_standing_in_a_doorway.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0f1b",
+        "foreground": "#c2c3c6",
+        "cursor": "#c2c3c6"
+    },
+    "colors": {
+        "color0": "#0b0f1b",
+        "color1": "#D6A779",
+        "color2": "#5C6282",
+        "color3": "#5C6282",
+        "color4": "#676E87",
+        "color5": "#7A808F",
+        "color6": "#C9B486",
+        "color7": "#c2c3c6",
+        "color8": "#5a606f",
+        "color9": "#D6A779",
+        "color10": "#5C6282",
+        "color11": "#5C6282",
+        "color12": "#676E87",
+        "color13": "#7A808F",
+        "color14": "#C9B486",
+        "color15": "#c2c3c6"
+    }
+}

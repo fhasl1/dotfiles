@@ -1,0 +1,28 @@
+{
+    "checksum": "86871a494b3988ffb512509717a8e57c",
+    "wallpaper": "/home/fhasl/Pictures/Wallpapers/wallpaper.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1522",
+        "foreground": "#c2c4c7",
+        "cursor": "#c2c4c7"
+    },
+    "colors": {
+        "color0": "#0e1522",
+        "color1": "#37546A",
+        "color2": "#505A66",
+        "color3": "#587489",
+        "color4": "#8C7A84",
+        "color5": "#728A9B",
+        "color6": "#95A1AC",
+        "color7": "#c2c4c7",
+        "color8": "#5e6472",
+        "color9": "#37546A",
+        "color10": "#505A66",
+        "color11": "#587489",
+        "color12": "#8C7A84",
+        "color13": "#728A9B",
+        "color14": "#95A1AC",
+        "color15": "#c2c4c7"
+    }
+}
