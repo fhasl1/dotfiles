@@ -1,53 +1,36 @@
-fastfetch
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+autoload -U colors && colors
+autoload -Uz compinit
+compinit
 
-export ZSH="$HOME/.oh-my-zsh"
+fastfetch
+
+cat ~/.cache/wal/sequences
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source ~/.zsh/zsh-vim-mode/zsh-vim-mode.plugin.zsh
+eval $(thefuck --alias)
+eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
+
 export TERM=xterm-256color
 export EDITOR=nvim
 export PATH="${PATH}:${HOME}/.local/bin/"
+export HISTFILE=~/.zsh_history
+export HISTSIZE=100000
+export SAVEHIST=100000
 
+setopt HIST_IGNORE_ALL_DUPS
+unsetopt hist_verify
+setopt hist_ignore_all_dups
+setopt hist_ignore_space
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_FIND_NO_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_SAVE_NO_DUPS
+setopt SHARE_HISTORY
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+export STARSHIP_CONFIG="$HOME/.config/starship.toml"
 
-plugins=(git fast-syntax-highlighting zsh-autosuggestions zsh-eza)
-
-alias ls="eza -al --color=auto --icons=always"
-alias ec="sudo emerge -c"
-alias cat="bat -pP"
-alias cd="z"
-alias vim="nvim"
-alias svim="sudoedit"
-alias p="sudo pacman -S --needed --noconfirm"
-alias pss="pacman -Ss"
-alias y="yay -S --needed --noconfirm"
-alias yss="yay -Ss"
-alias pr="sudo pacman -Rsnc"
-# alias e="sudo emerge"
-# alias ei="eix"
-# alias eavudn="sudo emaint sync --auto ; sudo emerge -avuDN @world"
-# pak() {
-#   pkg=$1
-#   shift
-#   cat=${pkg%%/*}
-#   print -r -- "$pkg $*" | sudo tee -a "/etc/portage/package.accept_keywords/$cat" > /dev/null
-# }
-# pu() {
-#   pkg=$1
-#   shift
-#   print -r -- "$pkg $*" | sudo tee -a "/etc/portage/package.use/${pkg##*/}" > /dev/null
-# }
-
-
-eval "$(zoxide init zsh)"
-
-source $ZSH/oh-my-zsh.sh
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-export PATH=/home/fhasl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
-
+[[ -f ~/.zsh-aliases ]] && source ~/.zsh-aliases
